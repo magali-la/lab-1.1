@@ -1,0 +1,39 @@
+body {
+    background-color: #EFD2EA;
+    font-family: 'Zalando Sans SemiExpanded';
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 500px;
+    height: fit-content;
+    padding: 10px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    height: 30px;
+    width: 50%;
+    align-self: center;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+button:hover {          
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 600;
+}
