@@ -1,6 +1,24 @@
 body {
     background-color: #EFD2EA;
     font-family: 'Zalando Sans SemiExpanded';
+    margin: 0;
+}
+
+nav {
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    font-weight: 600;
+    font-size: 18px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 64px;
 }
 
 h2 {
