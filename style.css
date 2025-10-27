@@ -59,3 +59,19 @@ button:hover {
     color: white;
     font-weight: 600;
 }
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+    margin: 0px 36px;
+}
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    box-shadow: slategray;
+    padding: 0px 24px;
+}
